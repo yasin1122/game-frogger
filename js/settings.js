@@ -1,0 +1,68 @@
+var CANVAS_WIDTH = 1080;
+var CANVAS_HEIGHT = 1136;
+
+var EDGEBOARD_X = 220;
+var EDGEBOARD_Y = 0;
+
+var FPS = 24;
+var FPS_TIME      = 1000/24;
+var DISABLE_SOUND_MOBILE = false;
+
+var PRIMARY_FONT = "walibi";
+
+var SOUNDTRACK_VOLUME_IN_GAME = 0.6;
+
+var STATE_LOADING = 0;
+var STATE_MENU    = 1;
+var STATE_HELP    = 1;
+var STATE_GAME    = 3;
+
+var ON_MOUSE_DOWN  = 0;
+var ON_MOUSE_UP    = 1;
+var ON_MOUSE_OVER  = 2;
+var ON_MOUSE_OUT   = 3;
+var ON_DRAG_START  = 4;
+var ON_DRAG_END    = 5;
+
+var H_MOVE = 37;
+var V_MOVE = 50;
+
+var LEVEL_TIME;
+var MAX_LEVEL_DIFFICULTY = 20;
+
+var SCORE_IN_NEST;
+var SCORE_WITH_FLY;
+var SCORE_DEATH;
+
+var UNLOAD_OFFSET = 100;
+var TURTLE_OFFSET = 74;
+var NUM_CONSECUTIVE_TURTLE_0 = 3;
+var NUM_CONSECUTIVE_TURTLE_3 = 2;
+var SINK_TURTLE_OCCURRENCY;
+var NUM_LEVEL_INCREASE_SINK;
+
+var TIME_FLY_TO_SPAWN;
+var TIME_FLY_TO_DISAPPEAR;
+
+var FROG_STARTING_LOGIC_POS = {row: 0, col: 8};
+var LIVES;
+var FROG_SPEED;
+
+var STREET_LANE_SPEED = new Array();
+    
+var STREET_SPEED_DECREASE_PER_LEVEL = new Array();   
+    
+var STREET_LANE_OCCURENCE = new Array();
+    
+var STREET_OCCURENCE_DECREASE_PER_LEVEL = new Array();
+
+var WATER_LANE_TIMESPEED = new Array(); 
+
+var WATER_TIMESPEED_DECREASE_PER_LEVEL = new Array();   
+
+var WATER_LANE_OCCURENCE = new Array();
+    
+var WATER_OCCURENCE_INCREASE_PER_LEVEL = new Array();
+
+var ENABLE_FULLSCREEN;
+var ENABLE_CHECK_ORIENTATION;
